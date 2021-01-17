@@ -24,7 +24,9 @@
 #include <sys/_system_properties.h>
 
 #include "init_common.h"
-#include "vendor_init.h"
+
+namespace android {
+namespace init {
 
 using android::base::GetProperty;
 
@@ -100,4 +102,6 @@ void load_device_properties() {
 void vendor_load_properties() {
     load_common_properties();
     load_device_properties();
+}
+}
 }
