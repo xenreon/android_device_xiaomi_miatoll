@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_miatoll.mk
+    $(LOCAL_DIR)/omni_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_miatoll-user \
-    arrow_miatoll-userdebug \
-    arrow_miatoll-eng
+    omni_miatoll-user \
+    omni_miatoll-userdebug \
+    omni_miatoll-eng
